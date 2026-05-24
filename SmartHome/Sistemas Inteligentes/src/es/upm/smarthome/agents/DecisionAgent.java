@@ -11,7 +11,6 @@ import java.util.Locale;
 import java.util.Map;
 
 public class DecisionAgent extends AgentBase {
-    private static final long serialVersionUID = 1L;
     private AID uiAgentAID;
     private Map<String, Double> latestData = new HashMap<>();
     private String lastAction = "Ninguna";

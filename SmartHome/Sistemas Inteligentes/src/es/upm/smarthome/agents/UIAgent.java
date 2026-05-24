@@ -14,7 +14,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class UIAgent extends AgentBase {
-    private static final long serialVersionUID = 1L;
     private JFrame frame;
     private JTextArea historyArea, dataArea;
     private String[] datosL;

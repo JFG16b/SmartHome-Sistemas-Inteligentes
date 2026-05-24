@@ -10,7 +10,6 @@ import java.util.Random;
 import java.util.Locale;
 
 public class TemperatureSensorAgent extends AgentBase {
-    private static final long serialVersionUID = 1L;
     private AID decisionAgentAID;
     private Random rand = new Random();
     private double currentTemp = 20.0; // ºC
