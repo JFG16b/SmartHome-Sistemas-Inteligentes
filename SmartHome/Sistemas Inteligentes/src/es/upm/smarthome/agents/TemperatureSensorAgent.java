@@ -33,7 +33,7 @@ public class TemperatureSensorAgent extends AgentBase {
         });
 
         // Comportamiento para enviar temperatura cada 10 segundos
-        addBehaviour(new TickerBehaviour(this, 10000) {
+        addBehaviour(new TickerBehaviour(this, 13000) {
             protected void onTick() {
                 if (decisionAgentAID != null) {
                     // Simular cambio de temperatura (±2 grados)

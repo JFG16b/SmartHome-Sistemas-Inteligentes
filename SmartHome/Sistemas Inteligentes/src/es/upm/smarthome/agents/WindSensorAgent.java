@@ -12,7 +12,7 @@ import java.util.Locale;
 public class WindSensorAgent extends AgentBase {
     private AID decisionAgentAID;
     private Random rand = new Random();
-    private double currentWind = 5.0; // km/h
+    private double currentWind = 15.0; // km/h
 
     protected void setup() {
         super.setup();

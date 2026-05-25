@@ -100,13 +100,13 @@ public class DecisionAgent extends AgentBase {
 
         if (hum > 60) {
             actionMsg.append("Ventilacion_ON;");
-        } else if (hum < 60 || !raining) {
+        } else if (hum < 60 && !raining) {
             actionMsg.append("Ventilacion_OFF;Riego_ON;");
         } else {
             actionMsg.append("Ventilacion_OFF;Riego_OFF;");
         }
 
-        if (wind > 30 || raining) {
+        if (wind > 15 || raining) {
             actionMsg.append("Persiana_CERRADA;");
         } else {
             actionMsg.append("Persiana_ABIERTA;");

@@ -30,7 +30,7 @@ public class RainSensorAgent extends AgentBase {
             }
         });
 
-        addBehaviour(new TickerBehaviour(this, 5000) {
+        addBehaviour(new TickerBehaviour(this, 10000) {
             protected void onTick() {
                 if (decisionAgentAID != null) {
                     // Simular cambio de estado de lluvia (10% de probabilidad de cambiar)
